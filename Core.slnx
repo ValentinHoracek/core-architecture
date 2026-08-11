@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ValentinHoracek.Core.Architecture/ValentinHoracek.Core.Architecture.csproj" />
+  </Folder>
+</Solution>
