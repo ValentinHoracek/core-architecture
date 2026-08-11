@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet Metadata -->
+    <Title>ValentinHoracek.Core.Architecture</Title>
+    <Author>Valentin Horacek</Author>
+    <Version>0.1.0-alpha</Version>
+    <Description>Architectural guardrails and naming conventions for the Core Ecosystem.</Description>
+    <PackageProjectUrl>https://github.com/valentinhoracek/core</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/valentinhoracek/core</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>architecture;governance;conventions;archunit</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ArchUnitNET" Version="*" />
+    <PackageReference Include="ArchUnitNET.xUnit" Version="*" />
+  </ItemGroup>
+
+</Project>
